@@ -6,9 +6,9 @@ services:
     stdin_open: true
     restart: always
 
-  # nginx:
-  #   image: nginx:latest
-  #   container_name: nginx
-  #   tty: true
-  #   stdin_open: true
-  #   restart: always
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    tty: true
+    stdin_open: true
+    restart: always
