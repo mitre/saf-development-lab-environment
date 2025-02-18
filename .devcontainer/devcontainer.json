@@ -4,7 +4,8 @@
             "repositories": {
                 "mitre/*": {
                     "permissions": {
-                        "issues": "write"
+                        "issues": "write",
+                        "contents": "write"
                     }
                 }
             }
